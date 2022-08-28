@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Brain Test</string>
+    <string name="your_score">Your Score</string>
+    <string name="Ahmed_Essam">1-Ahmed Essam</string>
+    <string name="Omar_Mohamed">2-Omar Mohamed</string>
+    <string name="quizapp">Brain Test</string>
+    <string name="night_mode_off">NIGHT MODE OFF</string>
+    <string name="night_mode_on">NIGHT MODE ON</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/submit_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choices_layout"
+        android:layout_marginTop="-61dp"
+        android:text="Math" />
+
+    <Button
+        android:id="@+id/submit_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choices_layout"
+        android:layout_marginTop="57dp"
+        android:text="Geography" />
+
+    <Button
+        android:id="@+id/submit_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choices_layout"
+        android:layout_marginTop="186dp"
+        android:text="Back" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choices_layout"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choices_layout"
+        android:layout_marginTop="-164dp"
+        android:text="Scince" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/choices_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="190dp"
+        android:text="Choose Your Category"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

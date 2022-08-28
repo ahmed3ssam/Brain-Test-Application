@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="easy.tuto.myquizapplication">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/funny_brain_like_lamp_vector_illustration_cartoon_brain_has_idea_562381_56"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyQuizApplication">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".QSActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.QS" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.About" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CategoriesActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.Categories" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MathActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.Math" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GeographyActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.Geography" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainDarkActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MainDark" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CatgoriesActivityDark"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.CatgoriesDark" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutDarkActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.AboutDark" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GeographyDarkActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.GeographyDark" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MathDarkActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MathDark" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QSDarkActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.QSDark" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>
